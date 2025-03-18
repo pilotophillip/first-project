@@ -1,6 +1,6 @@
 # My Portfolio Website - Phillip Piloto
 
-This is my first portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and provides a way for users to contact me. This website was developed as part of my learning journey in front-end development and includes several advanced features implemented using JavaScript.
+This is my first portfolio website built using HTML, CSS, and JavaScript on sublime text before i copied it into VScode and uploaded on Github. It showcases my skills, projects, and provides a way for users to contact me. This website was developed as part of my learning journey in front-end development and includes several advanced features implemented using JavaScript.
 
 ## Features
 
