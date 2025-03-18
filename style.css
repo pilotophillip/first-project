@@ -1,8 +1,12 @@
-
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #8dcfec;
     color: #11001c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -11,7 +15,10 @@ h1, h2, h3, h4 {
 
 .container {
     max-width: 840px;
+    width: 100%;
     margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
 .container > div {
@@ -97,6 +104,7 @@ h1, h2, h3, h4 {
 .links-and-contacts {
     display: grid;
     grid-template-columns: 60% 40%;
+    justify-items: center;
 }
 
 .links {
@@ -106,6 +114,23 @@ h1, h2, h3, h4 {
 .links-list {
     list-style: none;
     padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #003366;
+    font-weight: bold;
+    font-style: italic;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #ff6600;
+    transform: scale(1.1);
+}
+
+a:visited {
+    color: #003366;
 }
 
 form input,
@@ -129,7 +154,6 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
 @media (max-width: 480px) {
     .about-grid {
         grid-template-columns: 100%;
@@ -144,13 +168,16 @@ hr {
     .links-and-contacts {
         grid-template-columns: 100%;
     }
+
 }
 
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
 
-
-
-
-
-
-
-
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
