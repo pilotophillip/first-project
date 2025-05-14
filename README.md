@@ -10,7 +10,7 @@ Several features were implemented using JavaScript to enhance interactivity and 
 
 - **Responsive Design:** The website adapts to different screen sizes, ensuring an optimal experience across desktop and mobile devices.
 - **Profile Section:** Displays my profile photo and a brief introduction.
-- **Skills Section:** A list of front-end and back-end languages, tools, and technologies I am proficient in.
+- **Skills Section:** A list of front-end and back-end languages, tools, and technologies I am learning at Triple Ten Software Engineering boot camp.
 - **Projects Section:** A gallery of some of my projects with images and descriptions.
 - **Contact Form:** Users can send me a message via email.
 - **Real-Time Clock:** The current time is displayed and updated dynamically.
